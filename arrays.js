@@ -55,5 +55,13 @@ function removeElementFromBeginningOfArray(array[]) {
 
   var array1 = array.slice(1)
   return array1
+}
 
+function destructivelyRemoveElementFromEndOfArray(array[]) {
+  array.pop()
+}
+
+
+function removeElementFromEndOfArray() {
+  
 }
