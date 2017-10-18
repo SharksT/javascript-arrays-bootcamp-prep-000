@@ -21,43 +21,43 @@ var chocolateBars = [
   'skittles'
 ]
 
-function addElementToBeginningOfArray(array[],element) {
+function addElementToBeginningOfArray(array,element) {
 
   array1 = [element, ...array]
   return array1
 
 }
 
-function destructivelyAddElementToBeginningOfArray(array[],element) {
+function destructivelyAddElementToBeginningOfArray(array,element) {
   array.unshift(element)
   return array
 }
 
 
-function addElementToEndOfArray(array[],element) {
+function addElementToEndOfArray(array,element) {
   var array1 = [...array,element]
   return array1
 }
 
-function destructivelyAddElementToEndOfArray(array[],element) {
+function destructivelyAddElementToEndOfArray(array,element) {
   array.push(element)
   return array
 }
 
-function accessElementInArray(array[],index) {
+function accessElementInArray(array,index) {
   return array[index]
 }
-function destructivelyRemoveElementFromBeginningOfArray(array[]) {
+function destructivelyRemoveElementFromBeginningOfArray(array) {
   return array.shift()
 }
 
-function removeElementFromBeginningOfArray(array[]) {
+function removeElementFromBeginningOfArray(array) {
 
   var array1 = array.slice(1)
   return array1
 }
 
-function destructivelyRemoveElementFromEndOfArray(array[]) {
+function destructivelyRemoveElementFromEndOfArray(array) {
   array.pop()
 }
 
